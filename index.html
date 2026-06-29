@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Final Ear — Sovereign Audio Textbook</title>
+  <link rel="stylesheet" href="https://zacharygeurts.github.io/ZacharyGeurts/releases.css" />
+  <style>
+    body { max-width: 52rem; margin: 2rem auto; padding: 0 1rem; }
+    .lead { border-left: 3px solid #4de88a; padding-left: 1rem; }
+    nav a { margin-right: 1rem; }
+    .siblings { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .card { border: 1px solid var(--edge, #333); border-radius: 8px; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>The Final Ear</h1>
+  <p class="lead">Sovereign audio truth filters — hearing sibling to <a href="https://zacharygeurts.github.io/Final_Eye/">Final_Eye</a>. Part of the <a href="https://zacharygeurts.github.io/ZacharyGeurts/stack.html">AmmoOS stack</a>.</p>
+  <nav>
+    <a href="https://github.com/ZacharyGeurts/AmmoOS">AmmoOS</a>
+    <a href="https://zacharygeurts.github.io/AmmoOS/">Manual</a>
+    <a href="https://zacharygeurts.github.io/Final_Eye/">Final Eye</a>
+    <a href="https://zacharygeurts.github.io/Final_Mouth/">Final Mouth</a>
+    <a href="https://zacharygeurts.github.io/Queen/">Queen</a>
+  </nav>
+  <h2>Field manual API</h2>
+  <pre><code>GET /api/field-manual?sense=audio
+POST /api/queen-earball {"action":"field_manual","sense":"audio"}</code></pre>
+  <p>Ships inside <a href="https://github.com/ZacharyGeurts/AmmoOS">AmmoOS</a> via <code>wire-stack.sh</code> → <code>Final_Ear/</code>. Queen surfaces: <code>/world/queen-final-ear-manager.html</code> on <code>:9481</code>.</p>
+  <h2>Sense trilogy</h2>
+  <div class="siblings">
+    <article class="card"><h3><a href="https://zacharygeurts.github.io/Final_Eye/">Final Eye</a></h3><p>Vision · ZOCRSM1 · v1.3</p></article>
+    <article class="card"><h3><a href="https://zacharygeurts.github.io/Final_Ear/">Final Ear</a></h3><p>Audio · neural assist</p></article>
+    <article class="card"><h3><a href="https://zacharygeurts.github.io/Final_Mouth/">Final Mouth</a></h3><p>Speech · ZOCR mouth</p></article>
+  </div>
+  <h2>Install</h2>
+  <pre><code>git clone https://github.com/ZacharyGeurts/AmmoOS.git
+cd AmmoOS && ./scripts/wire-stack.sh
+./scripts/start-field-stack.sh</code></pre>
+</body>
+</html>
