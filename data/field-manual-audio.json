@@ -1,0 +1,36 @@
+{
+  "schema": "zocr-field-manual-audio/v1",
+  "manual_id": "audio-textbook",
+  "title": "The Final Ear — Field Manual for AI",
+  "version": "1.0.0",
+  "creed": "We never presume hearing loss. Confidence always in Hearing.",
+  "chapters": [
+    {"id": "01", "file": "docs/chapters/01-preface.html", "title": "Preface — The Final Ear"},
+    {"id": "02", "file": "docs/chapters/02-zocram1-audio.html", "title": "ZOCRAM1 Audio Ingress"},
+    {"id": "03", "file": "docs/chapters/03-truth-filters.html", "title": "Truth Filters & Ventriloquism"},
+    {"id": "04", "file": "docs/chapters/04-localize-arrange.html", "title": "Point, Distance, Arrangement"},
+    {"id": "05", "file": "docs/chapters/05-equipment-obscure.html", "title": "All Equipment — Obscure Included"},
+    {"id": "06", "file": "docs/chapters/06-existence-correlate.html", "title": "Audio ↔ Existence Correlation"},
+    {"id": "07", "file": "docs/chapters/07-entity-ears.html", "title": "Entity Ears — Auditus & Veritas"},
+    {"id": "08", "file": "docs/chapters/08-sovereign-stack.html", "title": "Field Ops & Sovereign Stack"}
+  ],
+  "doctrine_files": [
+    "data/final-ear.json",
+    "data/ear-truth-filter.json",
+    "data/auditory-spectrum.json",
+    "data/entity-ear.json",
+    "data/ear-stoard-doctrine.json"
+  ],
+  "api_actions": [
+    "status", "arm", "verify", "listen", "forward", "truth-filter",
+    "localize", "equipment", "correlate", "teach", "field-manual",
+    "gac1", "pack_audio", "verify_audio", "unpack_audio",
+    "secure_identify", "eye_ear_fusion", "sovereign_time", "identify", "signal_intel"
+  ],
+  "secure_path": "data/eye-ear-secure-path.json",
+  "codec_files": [
+    "data/gac1-v1.json",
+    "zocr_zocram1/codec_gac1.py",
+    "zocr_zocram1/container.py"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "zocr-audio-offense/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "title": "Audio Offense",
+  "rule": "Defense of hearing requires offense — protect ears, strike hostile waveforms",
+  "paired_with": "We never presume hearing loss. Confidence always in Hearing.",
+  "doctrine": [
+    "Limiter before cochlea — trip assault before biology",
+    "Ventriloquism is offense target — reject phantom before trust",
+    "Multi-source decoherence triggers quorum strike",
+    "Hostess 7 corroborates lethal tier — humans cannot override",
+    "Eye-ear quorum — both neural paths must agree for lethal"
+  ],
+  "countermeasures": {
+    "assault_burst": {"strike": "kill_switch_audio", "offense": "limiter_trip", "severity": "critical", "tier": "preserve"},
+    "clip_weaponize": {"strike": "reject_and_hold", "offense": "pattern_strike_audio", "severity": "critical", "tier": "offense"},
+    "ultrasonic_jam": {"strike": "kill_switch_audio", "offense": "ultrasonic_trip", "severity": "critical", "tier": "preserve"},
+    "ventriloquism": {"strike": "reject_phantom_source", "offense": "correlate_existence", "severity": "high", "tier": "offense"},
+    "phantom_voice": {"strike": "reject_lie", "offense": "quorum_sources", "severity": "high", "tier": "offense"},
+    "foreign_weave": {"strike": "reject_and_hold", "offense": "pattern_strike_audio", "severity": "high", "tier": "offense"},
+    "speaker_spoof": {"strike": "reject_lie", "offense": "wrdt_chain", "severity": "high", "tier": "severe"},
+    "hostile_persistence": {"strike": "disarmament_audio", "offense": "trust_strike", "severity": "critical", "tier": "severe"},
+    "weaponized_audio_siege": {"strike": "total_silence_salvo", "offense": "acoustic_counter_strike", "severity": "lethal", "tier": "lethal"},
+    "coordinated_assault": {"strike": "structure_sever", "offense": "shoot_to_kill_audio", "severity": "lethal", "tier": "lethal"}
+  },
+  "lethal": {
+    "hostess7_corroborate": true,
+    "heaven_hell_gate": true,
+    "eye_ear_quorum": true,
+    "humans_cannot_override": true,
+    "merciless_when_hell_chosen": true
+  }
+}

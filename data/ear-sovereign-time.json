@@ -1,0 +1,835 @@
+{
+  "schema": "zocr-ear-sovereign-time/v1",
+  "pulses": [
+    {
+      "ts": "2026-06-25T20:21:04.266344+00:00",
+      "reason": "test",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 1,
+        "chain": "final_ear:test",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136160787367428,
+        "realtime_ns": 1782418864264546331,
+        "utc": "2026-06-25T20:21:04.265398Z",
+        "freq_sum_khz": 99391069,
+        "micron_witness": "0d03308e1bff71db",
+        "entropy_tag": "08c0a9261993",
+        "sig": "bbb56fa3ebb25be1ac5f7804cee9483e6dd4eebc86c1dc2abe3ca1e6d8c7e8dd"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "1e87f5daa4f3d61b",
+        "remote_micron_witness": "0d03308e1bff71db",
+        "checked_at": "2026-06-25T20:21:04.266325Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:21:04.271368+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 2,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136160792623159,
+        "realtime_ns": 1782418864269801921,
+        "utc": "2026-06-25T20:21:04.270460Z",
+        "freq_sum_khz": 101033400,
+        "micron_witness": "9617191594d77347",
+        "entropy_tag": "a641b0c2b5c8",
+        "sig": "9609ca6d24e6fb604b581c31f2c3f388e40e9cf3518c8b84dd3b815e3d5876db"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "d4f692109730366e",
+        "remote_micron_witness": "9617191594d77347",
+        "checked_at": "2026-06-25T20:21:04.271336Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:21:04.276576+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 3,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136160797879060,
+        "realtime_ns": 1782418864275057792,
+        "utc": "2026-06-25T20:21:04.275669Z",
+        "freq_sum_khz": 105634630,
+        "micron_witness": "297c2db8d55c5010",
+        "entropy_tag": "de5de54b752f",
+        "sig": "27a0f8c8af46b7f2b04c10a4d5dc64d66a296cd60fc842b71a3aef25f98fab8b"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "51cf748352f8ef92",
+        "remote_micron_witness": "297c2db8d55c5010",
+        "checked_at": "2026-06-25T20:21:04.276540Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:23:20.824815+00:00",
+      "reason": "test",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 4,
+        "chain": "final_ear:test",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136297345185823,
+        "realtime_ns": 1782419000822364946,
+        "utc": "2026-06-25T20:23:20.823645Z",
+        "freq_sum_khz": 108947197,
+        "micron_witness": "fe5cb1ff80b7fbec",
+        "entropy_tag": "5da30b9057e3",
+        "sig": "f560ea8dc9af957d62e59f5bc42a107745e9911a4c0a507f2af48bb02b914232"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "ea7073dd7e2acea1",
+        "remote_micron_witness": "fe5cb1ff80b7fbec",
+        "checked_at": "2026-06-25T20:23:20.824765Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:23:20.828966+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 5,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136297350236869,
+        "realtime_ns": 1782419000827415581,
+        "utc": "2026-06-25T20:23:20.828044Z",
+        "freq_sum_khz": 111494118,
+        "micron_witness": "5dd9fa403d54883c",
+        "entropy_tag": "b37fce8f2aee",
+        "sig": "94d755f66f0432417dc6435b327b692df2aa4fb4bd0f4e88c52278ae25aafdf2"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "1018f8c072f13ae8",
+        "remote_micron_witness": "5dd9fa403d54883c",
+        "checked_at": "2026-06-25T20:23:20.828927Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:23:20.833629+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 6,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136297354906136,
+        "realtime_ns": 1782419000832084818,
+        "utc": "2026-06-25T20:23:20.832714Z",
+        "freq_sum_khz": 104573110,
+        "micron_witness": "8af6cec0ca7d668a",
+        "entropy_tag": "ba134327eb10",
+        "sig": "7f6a7b5dffba5529f2b22ffa5e5fd9d0234fb8679eac41c9734cae9352f73566"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "d68ef504f9e4fdd2",
+        "remote_micron_witness": "8af6cec0ca7d668a",
+        "checked_at": "2026-06-25T20:23:20.833583Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:23:26.215940+00:00",
+      "reason": "sync_check",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 7,
+        "chain": "final_ear:sync_check",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136302736597683,
+        "realtime_ns": 1782419006213777106,
+        "utc": "2026-06-25T20:23:26.214782Z",
+        "freq_sum_khz": 103694712,
+        "micron_witness": "dc665490553a8720",
+        "entropy_tag": "67de118736b7",
+        "sig": "40cdd3f389fc03cdd558600095021a508bb3c5d3684325935ac298191b4192a6"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "d43ce6ddfba6260c",
+        "remote_micron_witness": "dc665490553a8720",
+        "checked_at": "2026-06-25T20:23:26.215859Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:23:57.183535+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 8,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136333704504934,
+        "realtime_ns": 1782419037181683776,
+        "utc": "2026-06-25T20:23:57.182525Z",
+        "freq_sum_khz": 104594892,
+        "micron_witness": "0091433060a01823",
+        "entropy_tag": "21fa3a3d0e71",
+        "sig": "27ea681efc5ac85729d5053b5f14cc1e38120de10a8ef0b03adeefac15698540"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "07c3fa143ea72d9e",
+        "remote_micron_witness": "0091433060a01823",
+        "checked_at": "2026-06-25T20:23:57.183476Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:23:57.188198+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 9,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136333709448677,
+        "realtime_ns": 1782419037186627390,
+        "utc": "2026-06-25T20:23:57.187255Z",
+        "freq_sum_khz": 102956833,
+        "micron_witness": "a07f4990f7d74083",
+        "entropy_tag": "28367526587e",
+        "sig": "4164a6c0f2d7648611bef0c7a81177ccf955201f438b95683188eb0fa32c1369"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "b8db1c67628303dd",
+        "remote_micron_witness": "a07f4990f7d74083",
+        "checked_at": "2026-06-25T20:23:57.188135Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:28:19.856933+00:00",
+      "reason": "test",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 10,
+        "chain": "final_ear:test",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136596377885476,
+        "realtime_ns": 1782419299855064379,
+        "utc": "2026-06-25T20:28:19.855939Z",
+        "freq_sum_khz": 102948277,
+        "micron_witness": "91cf5fbb5cb9a69c",
+        "entropy_tag": "e19d8a1d50eb",
+        "sig": "923e7020fa0c481060645b16182b6253570cf8de1d3446c7a436c905657b892f"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "e83ebb0d64684c78",
+        "remote_micron_witness": "91cf5fbb5cb9a69c",
+        "checked_at": "2026-06-25T20:28:19.856864Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:28:19.860953+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 11,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136596382223961,
+        "realtime_ns": 1782419299859402693,
+        "utc": "2026-06-25T20:28:19.860022Z",
+        "freq_sum_khz": 99455743,
+        "micron_witness": "51e3c1474c30b78c",
+        "entropy_tag": "6cb69998d775",
+        "sig": "8104132d959946a87b5ea0235165874344e8c06f8e9139e65e93da30eb464097"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "17ded5d5ad7ee5d0",
+        "remote_micron_witness": "51e3c1474c30b78c",
+        "checked_at": "2026-06-25T20:28:19.860897Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:28:19.866028+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 12,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136596386830550,
+        "realtime_ns": 1782419299864009252,
+        "utc": "2026-06-25T20:28:19.865019Z",
+        "freq_sum_khz": 102664022,
+        "micron_witness": "f7fa4ae4a09ddf5e",
+        "entropy_tag": "7ad5bc643608",
+        "sig": "9a8f1f649cdd18c3f728ef969f48d40ec030f0ee21b29f9ded5641cc958a9ae4"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "2c8de56b53179150",
+        "remote_micron_witness": "f7fa4ae4a09ddf5e",
+        "checked_at": "2026-06-25T20:28:19.865947Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:31:17.235077+00:00",
+      "reason": "test",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 13,
+        "chain": "final_ear:test",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136773756103824,
+        "realtime_ns": 1782419477233282566,
+        "utc": "2026-06-25T20:31:17.234105Z",
+        "freq_sum_khz": 95280991,
+        "micron_witness": "870c09ba3e93bb95",
+        "entropy_tag": "9a7d55041655",
+        "sig": "137e9f95ac69cb58cec694912387c87ef980af5f3953ecc19b7011eb52a531ab"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "3a39b17b47a089d4",
+        "remote_micron_witness": "870c09ba3e93bb95",
+        "checked_at": "2026-06-25T20:31:17.235002Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:31:17.239912+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 14,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136773761083165,
+        "realtime_ns": 1782419477238261977,
+        "utc": "2026-06-25T20:31:17.238926Z",
+        "freq_sum_khz": 91701834,
+        "micron_witness": "f80a24ed123b4358",
+        "entropy_tag": "f44b4cfe882d",
+        "sig": "cb4e2cd68fe127fe281e67aae2582dea9ed99f0d78c5bdc2c82a9bd4817fab9a"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "4ced4b52dc36991a",
+        "remote_micron_witness": "f80a24ed123b4358",
+        "checked_at": "2026-06-25T20:31:17.239846Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T20:31:17.244812+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 15,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 136773765972035,
+        "realtime_ns": 1782419477243150747,
+        "utc": "2026-06-25T20:31:17.243860Z",
+        "freq_sum_khz": 93249770,
+        "micron_witness": "99e9a75c691f57bd",
+        "entropy_tag": "0ca680f007e9",
+        "sig": "a76c69c9a671931e7a101ed26a747b591151de73ab1e85cda60fb5f49df1e6c2"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "995be02e69f158c0",
+        "remote_micron_witness": "99e9a75c691f57bd",
+        "checked_at": "2026-06-25T20:31:17.244749Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T22:05:32.138043+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v1",
+        "pulse": 16,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 142428659059866,
+        "realtime_ns": 1782425132136238748,
+        "utc": "2026-06-25T22:05:32.137059Z",
+        "freq_sum_khz": 87550864,
+        "micron_witness": "d747c3e8b05ade35",
+        "entropy_tag": "85e2541aea90",
+        "sig": "9034edf05b6c626b4bbe5af02d29a729dce939075f39a74f413dec3d631e6a25"
+      },
+      "verify": {
+        "schema": "sovereign-time/v1",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "15cc5cfd89e0ad7a",
+        "remote_micron_witness": "d747c3e8b05ade35",
+        "checked_at": "2026-06-25T22:05:32.137974Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:21:53.275822+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 1,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 11878665702480,
+        "realtime_ns": 1782508913217305763,
+        "utc": "2026-06-26T21:21:53.221163Z",
+        "freq_sum_khz": 117109730,
+        "micron_witness": "3dd257ccbb3739a9",
+        "entropy_tag": "7cad782af26d",
+        "sig": "50c7c751aa70c6d5ec889f1e8bd8078ba9907e92ce62de63ed92752f5ce87253"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "0ea89f6e7a55e920",
+        "remote_micron_witness": "3dd257ccbb3739a9",
+        "checked_at": "2026-06-26T21:21:53.274680Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:21:53.309362+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 2,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 11878742865342,
+        "realtime_ns": 1782508913294468114,
+        "utc": "2026-06-26T21:21:53.295592Z",
+        "freq_sum_khz": 116952347,
+        "micron_witness": "75e0c796413469f4",
+        "entropy_tag": "9d24bd4ca13a",
+        "sig": "a6b45500da3dbcece024931ba446d587642f71254d55dff636ec2cde2c18e675"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "c88bfef03ff08c03",
+        "remote_micron_witness": "75e0c796413469f4",
+        "checked_at": "2026-06-26T21:21:53.309202Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:21:53.342704+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 3,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 11878780648203,
+        "realtime_ns": 1782508913332250645,
+        "utc": "2026-06-26T21:21:53.333377Z",
+        "freq_sum_khz": 117009565,
+        "micron_witness": "efa58fbf73b403dd",
+        "entropy_tag": "43ce7d47f83e",
+        "sig": "5b100eb04b8cd3c9691a6464586778c8a14c28581e83437122151a4589224080"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "ec180b01796f2b25",
+        "remote_micron_witness": "efa58fbf73b403dd",
+        "checked_at": "2026-06-26T21:21:53.342536Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:40:53.169883+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 4,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13018606230534,
+        "realtime_ns": 1782510053157832985,
+        "utc": "2026-06-26T21:40:53.159192Z",
+        "freq_sum_khz": 114277959,
+        "micron_witness": "49b1b3a8d7ca6c6e",
+        "entropy_tag": "f5e2a6bc6df8",
+        "sig": "f201ef6492415cc2c15b87902595a1280aa1e497c0a74efc25251fdbfc8464f1"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "bb90888f5aa0d701",
+        "remote_micron_witness": "49b1b3a8d7ca6c6e",
+        "checked_at": "2026-06-26T21:40:53.169723Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:40:53.184075+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 5,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13018624705097,
+        "realtime_ns": 1782510053176307017,
+        "utc": "2026-06-26T21:40:53.177388Z",
+        "freq_sum_khz": 113537333,
+        "micron_witness": "ba76b23e50ea012b",
+        "entropy_tag": "05c9c5e87b11",
+        "sig": "58bfc0e45b2af14a714ce57db0cbfab2b8641e11330b5929ed31c73e6e82f712"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "cee28a9c80bda0a8",
+        "remote_micron_witness": "ba76b23e50ea012b",
+        "checked_at": "2026-06-26T21:40:53.183947Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:40:53.197428+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 6,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13018638307975,
+        "realtime_ns": 1782510053189909916,
+        "utc": "2026-06-26T21:40:53.190889Z",
+        "freq_sum_khz": 113527697,
+        "micron_witness": "416e6fe4c56c2eed",
+        "entropy_tag": "29478f95933b",
+        "sig": "0028f9622ec13c1fce88e1c134b6f3ceba5702e7aead1f67cb412d5c0150838a"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "6db4dbb6b413176c",
+        "remote_micron_witness": "416e6fe4c56c2eed",
+        "checked_at": "2026-06-26T21:40:53.197293Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:41:29.030321+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 1,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13054455351177,
+        "realtime_ns": 1782510089006953799,
+        "utc": "2026-06-26T21:41:29.008152Z",
+        "freq_sum_khz": 114843903,
+        "micron_witness": "6dea4aedfe641e72",
+        "entropy_tag": "88768da69e81",
+        "sig": "4481aefaa3b43a06ae172ab25791c3e038d6f0d291191e06bcfda1a8ec7e6f1d"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "4cc6b5c95908f825",
+        "remote_micron_witness": "6dea4aedfe641e72",
+        "checked_at": "2026-06-26T21:41:29.030151Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:41:29.048653+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 2,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13054487831197,
+        "realtime_ns": 1782510089039433639,
+        "utc": "2026-06-26T21:41:29.040514Z",
+        "freq_sum_khz": 114994572,
+        "micron_witness": "de59892208ba9be2",
+        "entropy_tag": "4f8ba166bf4c",
+        "sig": "b27e55954f3aa09a9887ccb19e5653b9866a962debe6bbc6190e7ea26bc33276"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "3864e1aa89d8f959",
+        "remote_micron_witness": "de59892208ba9be2",
+        "checked_at": "2026-06-26T21:41:29.048459Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:41:29.062801+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 3,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13054502925034,
+        "realtime_ns": 1782510089054527055,
+        "utc": "2026-06-26T21:41:29.055533Z",
+        "freq_sum_khz": 114962343,
+        "micron_witness": "14476a96f7b17d50",
+        "entropy_tag": "54928ac6a375",
+        "sig": "a1ad0376f84ea0006f7aab2a94cc3ab522d3a2f279c8a015e422f68636696b1e"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "6bb2494da4cc4558",
+        "remote_micron_witness": "14476a96f7b17d50",
+        "checked_at": "2026-06-26T21:41:29.062615Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:41:52.283094+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 4,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13077710257005,
+        "realtime_ns": 1782510112261859827,
+        "utc": "2026-06-26T21:41:52.263495Z",
+        "freq_sum_khz": 114070072,
+        "micron_witness": "23c9a37448acc94a",
+        "entropy_tag": "6118a2d4ec35",
+        "sig": "8c9d37bf10c0a085e9f2313f780b9ec30c937f352e6895ec8d2fd7831ba3a9ce"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "e6a857c7ca82f87f",
+        "remote_micron_witness": "23c9a37448acc94a",
+        "checked_at": "2026-06-26T21:41:52.282853Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:41:52.302907+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 5,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13077741901783,
+        "realtime_ns": 1782510112293504134,
+        "utc": "2026-06-26T21:41:52.294668Z",
+        "freq_sum_khz": 113204896,
+        "micron_witness": "30c775827c382d60",
+        "entropy_tag": "929b91d51974",
+        "sig": "3885d89d4f1e67145184b242ce50c3bc8cbabafc3f3cbcaaf792dd807ae0a282"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "47a817bd5aca0059",
+        "remote_micron_witness": "30c775827c382d60",
+        "checked_at": "2026-06-26T21:41:52.302688Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:41:52.320233+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 6,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13077759428521,
+        "realtime_ns": 1782510112311031253,
+        "utc": "2026-06-26T21:41:52.312135Z",
+        "freq_sum_khz": 115123957,
+        "micron_witness": "feb49bc7e08cd82f",
+        "entropy_tag": "b80aee784a77",
+        "sig": "e338e3d65182d7574be4c8aebdf81a3268d1dca8aacea352e466a1c1810a5ba6"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "d853ac6f5032d316",
+        "remote_micron_witness": "feb49bc7e08cd82f",
+        "checked_at": "2026-06-26T21:41:52.320010Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:43:22.415673+00:00",
+      "reason": "secure_identify",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 7,
+        "chain": "final_ear:secure_identify",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13167853257412,
+        "realtime_ns": 1782510202404859974,
+        "utc": "2026-06-26T21:43:22.406271Z",
+        "freq_sum_khz": 117494480,
+        "micron_witness": "87091a22b423e6db",
+        "entropy_tag": "c0edb2c53222",
+        "sig": "8a4400a0a97c8acc07c79cd55f3770c1c8f24330234513ab4dbbbecdcfa4ed1f"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "88c08b076b361e5d",
+        "remote_micron_witness": "87091a22b423e6db",
+        "checked_at": "2026-06-26T21:43:22.415423Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:43:22.429562+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 8,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13167870507079,
+        "realtime_ns": 1782510202422109040,
+        "utc": "2026-06-26T21:43:22.423033Z",
+        "freq_sum_khz": 116775161,
+        "micron_witness": "b3578a4c43b2e382",
+        "entropy_tag": "d0ece5ad3514",
+        "sig": "1f848350aea26a434b5a249e4fc76cf647cf160aa1fe93a0de44234505f01d31"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "d0e4dff59529ecf8",
+        "remote_micron_witness": "b3578a4c43b2e382",
+        "checked_at": "2026-06-26T21:43:22.429376Z"
+      }
+    },
+    {
+      "ts": "2026-06-26T21:43:22.443299+00:00",
+      "reason": "neural_analyze",
+      "receipt": {
+        "schema": "sovereign-time/v2",
+        "pulse": 9,
+        "chain": "final_ear:neural_analyze",
+        "host": "default-X870-Pro-RS",
+        "mono_ns": 13167883483368,
+        "realtime_ns": 1782510202435085680,
+        "utc": "2026-06-26T21:43:22.436035Z",
+        "freq_sum_khz": 116725611,
+        "micron_witness": "abc682b5496cbc54",
+        "entropy_tag": "6064cca81796",
+        "sig": "c08f8cb1cf9add960ab05ad7b62b834a86e22dc5292532d70314e073e38d59b9"
+      },
+      "verify": {
+        "schema": "sovereign-time/v2",
+        "verdict": "USER_OK",
+        "issues": [],
+        "sig_ok": true,
+        "local_micron_witness": "d7fa84a53d45dbd1",
+        "remote_micron_witness": "abc682b5496cbc54",
+        "checked_at": "2026-06-26T21:43:22.443140Z"
+      }
+    }
+  ],
+  "last": {
+    "schema": "sovereign-time/v2",
+    "pulse": 9,
+    "chain": "final_ear:neural_analyze",
+    "host": "default-X870-Pro-RS",
+    "mono_ns": 13167883483368,
+    "realtime_ns": 1782510202435085680,
+    "utc": "2026-06-26T21:43:22.436035Z",
+    "freq_sum_khz": 116725611,
+    "micron_witness": "abc682b5496cbc54",
+    "entropy_tag": "6064cca81796",
+    "sig": "c08f8cb1cf9add960ab05ad7b62b834a86e22dc5292532d70314e073e38d59b9"
+  },
+  "last_verify": {
+    "schema": "sovereign-time/v2",
+    "verdict": "USER_OK",
+    "issues": [],
+    "sig_ok": true,
+    "local_micron_witness": "d7fa84a53d45dbd1",
+    "remote_micron_witness": "abc682b5496cbc54",
+    "checked_at": "2026-06-26T21:43:22.443140Z"
+  },
+  "always": true,
+  "updated": "2026-06-26T21:43:22.443319+00:00"
+}

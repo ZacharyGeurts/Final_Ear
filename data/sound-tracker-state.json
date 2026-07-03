@@ -1,0 +1,1889 @@
+{
+  "schema": "zocr-sound-tracker-state/v1",
+  "tracks": {
+    "snd_14d43975eb05": {
+      "sound_id": "snd_14d43975eb05",
+      "label": "speech-dispatcher-dummy",
+      "ingress_lane": "desktop",
+      "source_key": "pipewire:speech-dispatcher-dummy",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 3.16,
+      "level_db": -24.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745228,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745228,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745228,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.804951+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 3.16,
+          "level_db": -24.0,
+          "ingress_lane": "desktop"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.804957+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 3.16,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_67f6211ae5e4": {
+      "sound_id": "snd_67f6211ae5e4",
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_30d8024df8",
+      "bearing_deg": 30.0,
+      "heading_deg": 30.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745216,
+        "lon": -87.064587
+      },
+      "gps_heading": {
+        "lat": 45.745216,
+        "lon": -87.064587,
+        "bearing_from_operator_deg": 30.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745216,
+        "predicted_lon": -87.064587,
+        "predicted_bearing_deg": 30.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.805547+00:00",
+          "bearing_deg": 30.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.805554+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 30.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_0754786345b6": {
+      "sound_id": "snd_0754786345b6",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_b2ddf94a68",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.806194+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.806201+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_a354ffc0e7f3": {
+      "sound_id": "snd_a354ffc0e7f3",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_1ab221ef58",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.806883+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.806889+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_87298938e9a3": {
+      "sound_id": "snd_87298938e9a3",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_12de2ac556",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.807658+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.807664+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_6ecf2bfc60a9": {
+      "sound_id": "snd_6ecf2bfc60a9",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_c635c46b26",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.808513+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.808522+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_689cf49b06c4": {
+      "sound_id": "snd_689cf49b06c4",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_749dbd43f6",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.809377+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.809383+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_e13ad16dc138": {
+      "sound_id": "snd_e13ad16dc138",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_68d6ac06c2",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.810242+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.810249+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_b03195d0dbd9": {
+      "sound_id": "snd_b03195d0dbd9",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_35afc7f83c",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.811169+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.811175+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_ec69a6a48e74": {
+      "sound_id": "snd_ec69a6a48e74",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_737493151f",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.812123+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.812129+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_7114b126d85b": {
+      "sound_id": "snd_7114b126d85b",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_35d6711214",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.813204+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.813211+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_012bd9f851ad": {
+      "sound_id": "snd_012bd9f851ad",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_22258119c6",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.814270+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.814280+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_284154091329": {
+      "sound_id": "snd_284154091329",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_93004a9830",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.815375+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.815381+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_d0328698e4c2": {
+      "sound_id": "snd_d0328698e4c2",
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_b40fdb5a01",
+      "bearing_deg": 30.0,
+      "heading_deg": 30.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745216,
+        "lon": -87.064587
+      },
+      "gps_heading": {
+        "lat": 45.745216,
+        "lon": -87.064587,
+        "bearing_from_operator_deg": 30.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745216,
+        "predicted_lon": -87.064587,
+        "predicted_bearing_deg": 30.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.816529+00:00",
+          "bearing_deg": 30.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.816535+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 30.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_a3d616fcfa39": {
+      "sound_id": "snd_a3d616fcfa39",
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_3d2082ec96",
+      "bearing_deg": 30.0,
+      "heading_deg": 30.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745216,
+        "lon": -87.064587
+      },
+      "gps_heading": {
+        "lat": 45.745216,
+        "lon": -87.064587,
+        "bearing_from_operator_deg": 30.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745216,
+        "predicted_lon": -87.064587,
+        "predicted_bearing_deg": 30.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.817786+00:00",
+          "bearing_deg": 30.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.817792+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 30.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_96f9b79fa694": {
+      "sound_id": "snd_96f9b79fa694",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_c50701e578",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.819043+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.819049+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_9f3655818481": {
+      "sound_id": "snd_9f3655818481",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_68f7defa32",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.820395+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.820402+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_2e6445b45207": {
+      "sound_id": "snd_2e6445b45207",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_62d7920b7d",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.821832+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.821838+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_87e421e4bc88": {
+      "sound_id": "snd_87e421e4bc88",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_bc6fff4bd7",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.823314+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.823337+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_7f0ce649e015": {
+      "sound_id": "snd_7f0ce649e015",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_8d19685b11",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.824890+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.824897+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_bff3fee58e6d": {
+      "sound_id": "snd_bff3fee58e6d",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_d3ccb5d867",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.826497+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.826504+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_8ce7ac895ba7": {
+      "sound_id": "snd_8ce7ac895ba7",
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_acfcc791ae",
+      "bearing_deg": 30.0,
+      "heading_deg": 30.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745216,
+        "lon": -87.064587
+      },
+      "gps_heading": {
+        "lat": 45.745216,
+        "lon": -87.064587,
+        "bearing_from_operator_deg": 30.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745216,
+        "predicted_lon": -87.064587,
+        "predicted_bearing_deg": 30.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.828112+00:00",
+          "bearing_deg": 30.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.828119+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 30.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_60090ef34f67": {
+      "sound_id": "snd_60090ef34f67",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_a2798cd070",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.829854+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.829861+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_1b523d8266c7": {
+      "sound_id": "snd_1b523d8266c7",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_2dab8f4377",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.831618+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.831625+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_135744771a02": {
+      "sound_id": "snd_135744771a02",
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_be30446f66",
+      "bearing_deg": 120.0,
+      "heading_deg": 120.0,
+      "distance_m": 3.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745187,
+        "lon": -87.064567
+      },
+      "gps_heading": {
+        "lat": 45.745187,
+        "lon": -87.064567,
+        "bearing_from_operator_deg": 120.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 120.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745187,
+        "predicted_lon": -87.064567,
+        "predicted_bearing_deg": 120.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.833350+00:00",
+          "bearing_deg": 120.0,
+          "distance_m": 3.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.833356+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 120.0,
+        "target_distance_m": 3.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_de52d50b5fea": {
+      "sound_id": "snd_de52d50b5fea",
+      "label": "kinetic anchor",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_86bca01fa3",
+      "bearing_deg": 0.0,
+      "heading_deg": 0.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745218,
+        "lon": -87.0646
+      },
+      "gps_heading": {
+        "lat": 45.745218,
+        "lon": -87.0646,
+        "bearing_from_operator_deg": 0.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 0.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745218,
+        "predicted_lon": -87.0646,
+        "predicted_bearing_deg": 0.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.835137+00:00",
+          "bearing_deg": 0.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.835143+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 0.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_df716ed4a24c": {
+      "sound_id": "snd_df716ed4a24c",
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_0e72a1b12a",
+      "bearing_deg": 30.0,
+      "heading_deg": 30.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745216,
+        "lon": -87.064587
+      },
+      "gps_heading": {
+        "lat": 45.745216,
+        "lon": -87.064587,
+        "bearing_from_operator_deg": 30.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745216,
+        "predicted_lon": -87.064587,
+        "predicted_bearing_deg": 30.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.837019+00:00",
+          "bearing_deg": 30.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.837026+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 30.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    },
+    "snd_aba37bc666b0": {
+      "sound_id": "snd_aba37bc666b0",
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "ingress_lane": "virtual_ear",
+      "source_key": "ve:ve_1a19944157",
+      "bearing_deg": 30.0,
+      "heading_deg": 30.0,
+      "distance_m": 2.0,
+      "level_db": -22.0,
+      "operator_gps": {
+        "ok": true,
+        "lat": 45.7452,
+        "lon": -87.0646,
+        "heading_deg": 0.0,
+        "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+      },
+      "source_gps": {
+        "lat": 45.745216,
+        "lon": -87.064587
+      },
+      "gps_heading": {
+        "lat": 45.745216,
+        "lon": -87.064587,
+        "bearing_from_operator_deg": 30.0,
+        "operator_heading_deg": 0.0
+      },
+      "motion": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0
+      },
+      "predict": {
+        "is_moving": false,
+        "direction_deg": 30.0,
+        "speed_mps": 0.0,
+        "confidence": 0.35,
+        "horizon_s": 3.0,
+        "predicted_lat": 45.745216,
+        "predicted_lon": -87.064587,
+        "predicted_bearing_deg": 30.0
+      },
+      "policy": "hold",
+      "history_len": 1,
+      "history": [
+        {
+          "ts": "2026-06-25T20:28:19.839037+00:00",
+          "bearing_deg": 30.0,
+          "distance_m": 2.0,
+          "level_db": -22.0,
+          "ingress_lane": "virtual_ear"
+        }
+      ],
+      "neural_network_id": "FINAL_EAR_ASSIST_v1",
+      "permanent": true,
+      "updated": "2026-06-25T20:28:19.839044+00:00",
+      "pursuit": {
+        "policy": "hold",
+        "policy_label": "Hold lock",
+        "action": "hold_lock",
+        "target_bearing_deg": 30.0,
+        "target_distance_m": 2.0,
+        "spawn_virtual_ear": false,
+        "mechanism": null
+      }
+    }
+  },
+  "operator_gps": {
+    "ok": true,
+    "lat": 45.7452,
+    "lon": -87.0646,
+    "heading_deg": 0.0,
+    "source": "egress_geo+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies+census_geographies"
+  },
+  "updated": "2026-06-25T20:28:19.839060+00:00"
+}

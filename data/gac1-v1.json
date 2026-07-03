@@ -1,0 +1,50 @@
+{
+  "schema": "gac1-v1",
+  "format_id": "ZOCRAM1",
+  "codec_id": "GAC1",
+  "title": "GAC1 — Grok Audio Codec for the sovereign ear",
+  "rule": "Better than naked PCM: predictive frames, cochlear bands, sealed provenance.",
+  "beats_pcm": [
+    "Predictive + silence frames — 2–8× smaller than raw int16 on speech and patrol audio",
+    "Per-segment SHA256 seals + chained index — tamper evident before playback",
+    "Sovereign time + provenance weave in meta — not anonymous PCM blobs",
+    "Cochlear-safe profiles — limiter ceiling and band pack before your canal",
+    "Shannon entropy score per segment — oracle rejects camouflaged hostile frames",
+    "Binaural lane tags — L/R/HRTF metadata without AAC licensing"
+  ],
+  "profiles": {
+    "lossless": {
+      "gop": 1,
+      "silence_threshold": 0,
+      "cochlear_limit_db": null,
+      "description": "zlib keyframes only — bit-exact round trip"
+    },
+    "fast": {
+      "gop": 48,
+      "silence_threshold": 8,
+      "cochlear_limit_db": null,
+      "description": "machine ear ingest — throughput over cochlear tax"
+    },
+    "binaural_safe": {
+      "gop": 32,
+      "silence_threshold": 4,
+      "cochlear_limit_db": -1.0,
+      "description": "human binaural listen on demand — soft ceiling"
+    },
+    "cochlear_safe": {
+      "gop": 32,
+      "silence_threshold": 4,
+      "cochlear_limit_db": -3.0,
+      "description": "dish + maternal modes — protect biological ears"
+    },
+    "patrol": {
+      "gop": 64,
+      "silence_threshold": 12,
+      "cochlear_limit_db": -6.0,
+      "description": "perimeter vigilance — long silence runs, low cochlear exposure"
+    }
+  },
+  "container_extension": ".zocr",
+  "bus_slots": [57, 58, 59],
+  "field_layers": ["L4_audio", "packet_field", "sovereign_time", "entropy_oracle"]
+}

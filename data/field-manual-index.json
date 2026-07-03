@@ -1,0 +1,74 @@
+{
+  "schema": "zocr-field-manual-index/v1",
+  "title": "Field Manuals — AI operator corpus",
+  "rule": "AI and operators load field manuals per sense and function — grep-first, honesty-labeled.",
+  "senses": {
+    "vision": {
+      "product": "Final_Eye",
+      "manual_id": "vision-textbook",
+      "title": "The Final Eyeball — Sovereign Vision Textbook",
+      "version": "1.1",
+      "root_env": "FINAL_EYE_ROOT",
+      "textbook_html": "docs/index.html",
+      "chapters_glob": "docs/chapters/*.html",
+      "field_manual_json": "data/field-manual-vision.json",
+      "api_queen": "/api/queen-eyeball",
+      "api_field_manual": "/api/field-manual?sense=vision",
+      "creed": "We never presume vision loss. Confidence always in Vision."
+    },
+    "audio": {
+      "product": "Final_Ear",
+      "manual_id": "audio-textbook",
+      "title": "The Final Ear — Sovereign Audio Textbook",
+      "version": "1.0",
+      "root_env": "FINAL_EAR_ROOT",
+      "textbook_html": "docs/index.html",
+      "chapters_glob": "docs/chapters/*.html",
+      "field_manual_json": "data/field-manual-audio.json",
+      "api_queen": "/api/queen-earball",
+      "api_field_manual": "/api/field-manual?sense=audio",
+      "creed": "We never presume hearing loss. Confidence always in Hearing."
+    }
+  },
+  "functions": {
+    "truth_filter_audio": {
+      "manual": "data/ear-truth-filter.json",
+      "module": "zocr_ear_truth.py",
+      "sense": "audio"
+    },
+    "truth_filter_vision": {
+      "manual": "data/entity-eyeball.json",
+      "module": "zocr_entity_eyeball.py",
+      "sense": "vision",
+      "root": "FINAL_EYE_ROOT"
+    },
+    "localize_audio": {
+      "manual": "data/auditory-spectrum.json",
+      "module": "zocr_ear_localize.py",
+      "sense": "audio"
+    },
+    "equipment_audio": {
+      "manual": "data/auditory-spectrum.json",
+      "module": "zocr_ear_equipment.py",
+      "sense": "audio"
+    },
+    "virtual_ears": {
+      "manual": "data/ear-virtual-rig.json",
+      "module": "zocr_virtual_ear.py",
+      "sense": "audio",
+      "api": "POST /api/queen-earball virtual_spawn | virtual_observe | virtual_grid"
+    },
+    "virtual_eyes": {
+      "manual": "data/eye-virtual-rig.json",
+      "module": "zocr_virtual_eye.py",
+      "sense": "vision",
+      "root": "FINAL_EYE_ROOT",
+      "api": "POST /api/queen-eyeball virtual_spawn | pair_anchor | virtual_grid"
+    },
+    "comfort_stereo": {
+      "manual": "data/queen-eye-comfort-doctrine.json",
+      "sense": "vision",
+      "root": "QUEEN_ROOT"
+    }
+  }
+}

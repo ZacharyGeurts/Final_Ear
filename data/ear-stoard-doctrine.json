@@ -1,0 +1,27 @@
+{
+  "schema": "zocr-ear-stoard/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "title": "Ear Stoard",
+  "rule": "Secure, safely expanding storage for Final_Ear witness — field compiler receipts, Grok16 posture, sealed audio blobs. Append-only ledger.",
+  "growth": {
+    "initial_cap_bytes": 268435456,
+    "max_cap_bytes": 8589934592,
+    "expand_ratio": 1.25,
+    "expand_threshold": 0.8,
+    "min_witness_between_expand": 3,
+    "max_blob_bytes": 67108864,
+    "max_expand_per_day": 4
+  },
+  "zones": {
+    "witness": "Field compiler + Grok16 audio witness snapshots (JSON)",
+    "blobs": "Content-addressed sealed waveforms (sha256 prefix tree)",
+    "compile": "Compile smoke receipts and bench rows",
+    "quarantine": "Rejected writes — assault, seal fail, oversize blob"
+  },
+  "security": {
+    "ledger": "append-only jsonl with prev_hash chain",
+    "write_gate": "code_seal verify before store/witness",
+    "content_addressed": true,
+    "egress": "localhost API only — no remote mount"
+  }
+}

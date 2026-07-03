@@ -1,0 +1,24 @@
+{
+  "schema": "zocr-hardware-audio-policy/v1",
+  "rule": "Loopback-first secure bind — mobo HDA preferred over USB card over HDMI",
+  "denylist_sinks": ["auto_null", "null", "dummy"],
+  "denylist_patterns": ["dummy", "auto_null", "speech-dispatcher", "null-output"],
+  "priority_keywords": {
+    "mobo_hda": ["realtek", "alc", "hda intel", "snd_hda", "onboard", "motherboard", "mobo", "azalia"],
+    "usb_card": ["usb", "focusrite", "scarlett", "behringer", "creative", "sound blaster"],
+    "hdmi": ["hdmi", "nvidia", "displayport", "dp audio", "nvidia hdmi"]
+  },
+  "secure": {
+    "localhost_only": true,
+    "require_mandate_gate": true,
+    "require_kill_check": true,
+    "loopback_first": true
+  },
+  "remediation": [
+    "Verify /dev/snd exists — load snd_hda_intel or snd_usb_audio if missing",
+    "Ensure user is in the audio group: sudo usermod -aG audio $USER",
+    "PipeWire on auto_null means no hardware sink — install firmware/driver for onboard codec",
+    "BIOS: onboard HD Audio must be enabled; disable conflicting virtual audio if needed",
+    "After driver load: pactl list sinks short — expect alsa_output.* not auto_null"
+  ]
+}

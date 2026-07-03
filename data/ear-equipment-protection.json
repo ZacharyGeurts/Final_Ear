@@ -1,0 +1,20 @@
+{
+  "schema": "zocr-ear-equipment-protection/v1",
+  "title": "Ear Equipment Protection",
+  "rule": "Protect biological cochlea and all audio equipment — countermeasures through lethal when Hostess corroborates",
+  "equipment": [
+    {"id": "biological_ear", "protect": ["peak_limiter", "ultrasonic_trip", "infrasonic_trip", "kill_switch_audio"], "priority": "absolute"},
+    {"id": "headset", "protect": ["clip_weaponize_reject", "assault_burst_trip"], "priority": "high"},
+    {"id": "kinetic_eardrum", "protect": ["structure_borne_verify", "phantom_air_reject"], "priority": "high"},
+    {"id": "mems_array", "protect": ["phase_lock", "ghost_duplicate_reject"], "priority": "high"},
+    {"id": "virtual_ear", "protect": ["truth_bound", "ventriloquism_filter"], "priority": "medium"},
+    {"id": "obscure_sensors", "protect": ["bandpass_normalize", "provenance_weave"], "priority": "medium"}
+  ],
+  "countermeasures": {
+    "preserve": ["kill_switch_audio", "limiter", "hold_vault"],
+    "offense": ["pattern_strike_audio", "reject_phantom_source", "ventriloquism_reject"],
+    "severe": ["disarmament_audio", "trust_strike", "quorum_sources"],
+    "lethal": ["acoustic_counter_strike", "total_silence_salvo", "structure_sever"]
+  },
+  "lethal_requires": ["hostess7_corroborate", "heaven_hell_gate", "eye_ear_quorum"]
+}

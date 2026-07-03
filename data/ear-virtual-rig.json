@@ -1,0 +1,57 @@
+{
+  "schema": "zocr-ear-virtual-rig/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "doctrine": "AI may virtualize hearing at any point — unlimited virtual ears; truth-filter every tap",
+  "rule": "Since AI knows audio, it hears by virtualizing any point it wishes. Multiple ears permitted.",
+  "unlimited": true,
+  "max_virtual_ears": null,
+  "mechanisms": {
+    "kinetic_eardrum": {
+      "label": "Kinetic eardrum",
+      "class": "structure_borne",
+      "sense": "pressure + vibration at point",
+      "range_hz": [5, 80000],
+      "truth_filter": true,
+      "teach": "Virtual membrane at (x,y,z) — structure-borne ingress; rejects air phantom when kinetic path absent"
+    },
+    "acoustic_phased": {
+      "label": "Phased array beam",
+      "class": "array",
+      "channels": 8,
+      "beam_steer": true,
+      "truth_filter": true,
+      "teach": "Steer nulls and lobes to virtual point — arrangement graph required"
+    },
+    "binaural_virtual": {
+      "label": "Virtual binaural pair",
+      "class": "hrtf",
+      "channels": 2,
+      "baseline_mm": 65,
+      "truth_filter": true,
+      "teach": "HRTF ears offset from operator head to arbitrary world point"
+    },
+    "contact_virtual": {
+      "label": "Virtual contact mic",
+      "class": "obscure",
+      "truth_filter": true,
+      "teach": "Piezo tap on surface at virtual anchor"
+    },
+    "field_socket_audio": {
+      "label": "FieldSocket audio tap",
+      "class": "rtx",
+      "truth_filter": true,
+      "teach": "AMOURANTHRTX guest audio bus at sealed point"
+    },
+    "hydrophone_virtual": {
+      "label": "Virtual hydrophone",
+      "class": "fluid",
+      "truth_filter": true,
+      "teach": "Fluid-medium ear at submerged virtual point"
+    }
+  },
+  "spawn_defaults": {
+    "profile": "human_binaural",
+    "truth_bound": true,
+    "existence_correlate": true
+  }
+}

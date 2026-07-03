@@ -1,0 +1,15 @@
+{
+  "encourage_count": 8,
+  "encouraged": {
+    "speech_present": 0.14,
+    "clear_audio": 0.02
+  },
+  "updated": "2026-06-25T19:47:21.820656+00:00",
+  "encouraged_bias": {
+    "speech_present": 0.14,
+    "clear_audio": 0.02
+  },
+  "base_seal_sha256": "e8ce24e152e12784416ef6d9786be069a157dd6d2175580a1ee3a8b0c6b1082c",
+  "overlay_seal": "41c8d96a6b25353b7da4806f4998861fe2a5c9b2cbbc01837ef06e46c1dace5e",
+  "incorruptible": true
+}
