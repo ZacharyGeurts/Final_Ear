@@ -1,0 +1,43 @@
+{
+  "schema": "zocr-entity-ear/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "twins": {
+    "living": {
+      "id": "auditus",
+      "name": "Auditus",
+      "role": "Living ear — perceive, localize, stream",
+      "socket": "ear_living"
+    },
+    "truth": {
+      "id": "veritas",
+      "name": "Veritas",
+      "role": "Truth ear — forward truth, reject lies, wield weapons",
+      "socket": "ear_truth"
+    }
+  },
+  "forward": {
+    "always": true,
+    "lie_markers": ["ventriloquism", "phantom_voice", "assault_burst", "foreign_weave", "mouth_mismatch", "encoded_carrier", "interference_mix", "time_desync"],
+    "threat_weapon_map": {
+      "ventriloquism": "reject_phantom_source",
+      "phantom_voice": "reject_lie",
+      "assault_burst": "kill_switch_audio",
+      "foreign_weave": "pattern_strike_audio",
+      "mouth_mismatch": "correlate_existence"
+    }
+  },
+  "weapons": {
+    "reject_lie": {"rack": "truth", "role": "Reject uncorroborated audio claim"},
+    "reject_phantom_source": {"rack": "truth", "role": "Kill ventriloquist phantom bearing"},
+    "kill_switch_audio": {"rack": "preserve", "role": "Protect biological hearing"},
+    "pattern_strike_audio": {"rack": "offense", "role": "Strike foreign audio weave"},
+    "correlate_existence": {"rack": "truth", "role": "Bind sound to SDF / vision existence"},
+    "forward_truth": {"rack": "core", "role": "Always forward — Veritas default"}
+  },
+  "racks": {
+    "core": "Core truth forward",
+    "truth": "Lie rejection",
+    "preserve": "Hearing preservation",
+    "offense": "Hostile audio offense"
+  }
+}

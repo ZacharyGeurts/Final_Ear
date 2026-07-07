@@ -1,0 +1,557 @@
+{
+  "schema": "zocr-ear-virtual-state/v1",
+  "virtual_ears": [
+    {
+      "id": "ve_30d8024df8",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-25T19:05:13.429686+00:00"
+    },
+    {
+      "id": "ve_b2ddf94a68",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:05:33.217127+00:00"
+    },
+    {
+      "id": "ve_1ab221ef58",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:05:55.983016+00:00"
+    },
+    {
+      "id": "ve_12de2ac556",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:06:34.079113+00:00"
+    },
+    {
+      "id": "ve_c635c46b26",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:07:01.169970+00:00"
+    },
+    {
+      "id": "ve_749dbd43f6",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:07:01.244843+00:00"
+    },
+    {
+      "id": "ve_68d6ac06c2",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:10:48.024376+00:00"
+    },
+    {
+      "id": "ve_35afc7f83c",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:10:48.093464+00:00"
+    },
+    {
+      "id": "ve_737493151f",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:11:27.642104+00:00"
+    },
+    {
+      "id": "ve_35d6711214",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:11:27.712279+00:00"
+    },
+    {
+      "id": "ve_22258119c6",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:13:33.345446+00:00"
+    },
+    {
+      "id": "ve_93004a9830",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:13:33.418418+00:00"
+    },
+    {
+      "id": "ve_b40fdb5a01",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-25T19:18:12.471865+00:00"
+    },
+    {
+      "id": "ve_3d2082ec96",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-25T19:18:15.499484+00:00"
+    },
+    {
+      "id": "ve_c50701e578",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:18:38.068599+00:00"
+    },
+    {
+      "id": "ve_68f7defa32",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:18:38.143854+00:00"
+    },
+    {
+      "id": "ve_62d7920b7d",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:38:13.922886+00:00"
+    },
+    {
+      "id": "ve_bc6fff4bd7",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:38:13.990171+00:00"
+    },
+    {
+      "id": "ve_8d19685b11",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:39:44.786988+00:00"
+    },
+    {
+      "id": "ve_d3ccb5d867",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:39:44.856581+00:00"
+    },
+    {
+      "id": "ve_acfcc791ae",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-25T19:39:49.856439+00:00"
+    },
+    {
+      "id": "ve_a2798cd070",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:42:15.231935+00:00"
+    },
+    {
+      "id": "ve_2dab8f4377",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:42:15.302490+00:00"
+    },
+    {
+      "id": "ve_be30446f66",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1.5,
+        "y_m": 2.6,
+        "z_m": 1.1,
+        "bearing_deg": 120,
+        "distance_m": 3
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 120\u00b0",
+      "spawned": "2026-06-25T19:47:16.735576+00:00"
+    },
+    {
+      "id": "ve_86bca01fa3",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 0.0,
+        "y_m": 0.0,
+        "z_m": 1.5,
+        "bearing_deg": 0.0
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "kinetic anchor",
+      "spawned": "2026-06-25T19:47:16.807486+00:00"
+    },
+    {
+      "id": "ve_0e72a1b12a",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-25T20:19:18.251643+00:00"
+    },
+    {
+      "id": "ve_1a19944157",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-25T20:21:04.310689+00:00"
+    },
+    {
+      "id": "ve_68153a3645",
+      "sense": "ear",
+      "virtual": true,
+      "mechanism": "kinetic_eardrum",
+      "mechanism_label": "Kinetic eardrum",
+      "point": {
+        "x_m": 1,
+        "y_m": 0.5,
+        "z_m": 1,
+        "bearing_deg": 30,
+        "distance_m": 2
+      },
+      "profile": "human_binaural",
+      "truth_bound": true,
+      "existence_correlate": true,
+      "enabled": true,
+      "label": "Kinetic eardrum @ 30\u00b0",
+      "spawned": "2026-06-29T08:07:11.167747+00:00"
+    }
+  ],
+  "updated": "2026-06-29T08:07:11.167841+00:00"
+}

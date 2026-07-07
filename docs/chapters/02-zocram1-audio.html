@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>02 — ZOCRAM1 &amp; GAC1 · The Final Ear</title>
+  <link rel="stylesheet" href="../css/final-ear.css" />
+</head>
+<body>
+  <nav class="top"><div class="inner"><a class="logo" href="../index.html">THE FINAL EAR</a></div></nav>
+  <main class="section">
+    <p class="eyebrow">Chapter 02</p>
+    <h1>ZOCRAM1 Audio — Better Than PCM for the Sovereign Ear</h1>
+    <p class="lead">Raw PCM is anonymous, uncompressed, and unsealed. Field Technology ships <strong>GAC1</strong> inside the <strong>ZOCRAM1</strong> container — predictive frames, cochlear-safe profiles, sovereign-time receipts, and per-segment SHA256 seals. <span class="tag">Implemented</span></p>
+
+    <h2>Why PCM fails the ear mission</h2>
+    <p>PCM treats hearing as a byte hose: no provenance, no tamper evidence, no cochlear ceiling, no entropy witness. A hostile waveform can ride the same int16 lane as a dish clatter or a perimeter footstep. Vendors bolt AAC on top and call it secure — you inherit licensing, latency, and opaque frames. Final_Ear refuses that trade.</p>
+    <table>
+      <thead><tr><th>PCM problem</th><th>GAC1 answer</th><th>Field layer</th></tr></thead>
+      <tbody>
+        <tr><td>Uncompressed bulk</td><td>Predictive + silence frames (2–8× on speech/patrol)</td><td>L4 Audio fast path</td></tr>
+        <tr><td>No integrity</td><td>ZOCR sealed segments + chained index</td><td>WRDT / stoard</td></tr>
+        <tr><td>Anonymous blobs</td><td>Provenance weave + sovereign <code>sealed_ts</code></td><td>Sovereign time</td></tr>
+        <tr><td>Cochlear assault</td><td>Profile limiter (<code>cochlear_safe</code> −3 dBFS ceiling)</td><td>Auditus preservation</td></tr>
+        <tr><td>Camouflaged noise</td><td>Shannon <em>H</em> per segment — oracle lane</td><td>Entropy receipts</td></tr>
+      </tbody>
+    </table>
+
+    <h2>GAC1 frame kinds</h2>
+    <p><code>GAC1</code> is not MPEG. Three frame types cover most field audio:</p>
+    <ul>
+      <li><strong>KEY</strong> — zlib-compressed PCM keyframe (lossless round-trip in <code>lossless</code> profile).</li>
+      <li><strong>PRED</strong> — int16 delta from previous frame — where patrol and dish audio shrinks versus naked PCM.</li>
+      <li><strong>SILENCE</strong> — explicit zero runs — machine hears perimeter quiet without burning your cochlea on noise-shaped zeros.</li>
+    </ul>
+    <p>Profiles in <code>data/gac1-v1.json</code>: <code>lossless</code>, <code>fast</code>, <code>binaural_safe</code>, <code>cochlear_safe</code>, <code>patrol</code>. Die telemetry mirrors rack state on <code>data_bus[57–59]</code>; ZOCRAM1 is transport and witness, not a replacement for ThermoAccountant.</p>
+
+    <h2>ZOCRAM1 container</h2>
+    <p>Files use extension <code>.zocr</code>. Header + segment index + sealed payloads — same discipline as GRKMF video envelopes, tuned for the ear:</p>
+    <pre class="eq">ZOCR header → segment index → [meta segment | frame segments…]
+Each segment: ZOCR magic + SHA256 + GAC1 payload</pre>
+    <p>Meta JSON carries profile, sample rate, channels, entropy mean, sovereign time, and provenance weave hash. <strong>Verify before vault.</strong> Stoard quarantines failed seals; Veritas rejects playback when provenance mismatches pattern weave.</p>
+
+    <h2>Operator commands</h2>
+    <pre class="eq"># Pack raw int16 PCM
+pythong zocr_zocram1_cli.py pack capture.pcm witness.zocr --profile cochlear_safe
+
+# Demo tone + verify seals
+pythong zocr_zocram1_cli.py demo witness.zocr --profile binaural_safe
+pythong zocr_zocram1_cli.py verify witness.zocr
+
+# Queen earball
+POST /api/queen-earball  {"action":"gac1"}
+POST /api/queen-earball  {"action":"pack_audio","pcm_path":"…","dest_path":"…"}
+POST /api/queen-earball  {"action":"verify_audio","path":"witness.zocr"}</pre>
+
+    <h2>Doctrine tie-in</h2>
+    <p><strong>Auditus</strong> ingests ZOCRAM1 on the fast path — your biological ear rests unless you choose enhance. <strong>Veritas</strong> demands verify + truth filters before trust. Hostess7 neural stack treats audio lanes like field frames: woven redundancy, not a single PCM pipe. Confidence always in Hearing — hostile frames trip kill switch before canal, not after.</p>
+    <p class="creed">We never presume hearing loss. Confidence always in Hearing.</p>
+    <p><a href="03-truth-filters.html">Next: Truth Filters →</a></p>
+  </main>
+</body>
+</html>

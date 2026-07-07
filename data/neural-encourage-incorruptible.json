@@ -1,0 +1,6 @@
+{
+  "schema": "queen-neural-encourage-incorruptible/v1",
+  "extends": "../../NewLatest/Queen/data/neural-encourage-incorruptible.json",
+  "sense": "ear",
+  "rule": "Ear encourage — sealed weights immutable; bias overlay only; weapon quarantine"
+}

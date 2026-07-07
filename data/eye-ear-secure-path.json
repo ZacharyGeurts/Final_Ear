@@ -1,0 +1,42 @@
+{
+  "schema": "zocr-eye-ear-secure-path/v1",
+  "title": "Secure neural path — Eye ↔ Ear under sovereign time",
+  "rule": "Never desync. Accurate identification. Encoded signals and deceit fail closed before vault.",
+  "pipeline": [
+    "seal_ear_tick",
+    "load_eye_sovereign_mono",
+    "verify_eye_ear_sync",
+    "signal_intel_identify",
+    "truth_filters",
+    "ear_neural_analyze",
+    "eye_neural_wired",
+    "ear_neural_refine",
+    "invincible_quorum"
+  ],
+  "sovereign_time": {
+    "always": true,
+    "max_sync_delta_ns": 500000000,
+    "squidgie_on_desync": true,
+    "never_pool_only_ntp": true
+  },
+  "signal_intel": {
+    "encoded_signal": ["ultrasonic_carrier", "fsk_like", "narrowband_tone", "high_packed_entropy"],
+    "mixed_interference": ["phase_fight", "low_snr", "rf_interference", "ghost_duplicate", "incoherent_mix"],
+    "deceit": ["mouth_deceit", "provenance_lie", "time_desync", "replay_spoof", "existence_mismatch"]
+  },
+  "identifications": [
+    "speech_verified",
+    "clear_audio",
+    "ambient_quiet",
+    "multi_source_resolved",
+    "encoded_signal_detected",
+    "interference_mix",
+    "deceit_pattern",
+    "threat_corroborated"
+  ],
+  "api": {
+    "fusion": "POST /api/queen-earball {\"action\":\"eye_ear_fusion\"}",
+    "secure": "POST /api/queen-earball {\"action\":\"secure_identify\"}",
+    "wire": "POST /api/queen-sense-neural dispatch analyze"
+  }
+}

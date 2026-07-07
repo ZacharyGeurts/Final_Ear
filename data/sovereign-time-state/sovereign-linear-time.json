@@ -1,0 +1,13 @@
+{
+  "schema": "sovereign-linear-time/v1",
+  "sealed": true,
+  "sealed_at": "2026-07-03T02:32:32.329377Z",
+  "epoch_mono_ns": 83553821515218,
+  "epoch_linear_ns": 1783045952329384976,
+  "last_linear_ns": 1783045952329385076,
+  "last_mono_ns": 83553821515218,
+  "red_flag_count": 0,
+  "gap_count": 0,
+  "immutable_rule": "Nothing affects linear time; take time out = gap or red flag only",
+  "policy": "Linear time never stops — take time out means gap or red flag"
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "zocr-final-ear/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "title": "The Final Ear",
+  "subtitle": "One whole hearing — war-sharp, dish-gentle, never deafened",
+  "rule": "We never presume hearing loss. Confidence always in Hearing.",
+  "virtual_points": {
+    "unlimited": true,
+    "module": "zocr_virtual_ear.py",
+    "mechanisms": ["kinetic_eardrum", "acoustic_phased", "binaural_virtual", "contact_virtual", "field_socket_audio", "hydrophone_virtual"],
+    "rule": "AI hears at any point — kinetic eardrums, phased arrays, virtual binaural; spawn via POST /api/queen-earball"
+  },
+  "twins": {
+    "living": "Auditus — the ear that lives; perceive, localize, stream live",
+    "truth": "Veritas — the ear that talks truth; rejects ventriloquism, guards lies, wields entity weapons"
+  },
+  "hearing_confidence": "Confidence always in Hearing — protect biological ears, sharpen field ear, cascade carries truth",
+  "voices": [
+    "tactical", "clinical", "field_poet", "maternal", "engineer",
+    "silent_monk", "dish_hand", "owl_pilot", "preserve_oracle",
+    "kill_switch_priest", "submicron_weaver", "robotics_brief"
+  ],
+  "preservation": {
+    "biological": [
+      "No assault burst — limiter before cochlea; ultrasonic/infrasonic trip stops harmful paths",
+      "Kill switch protects ears before playback — trip stops hostile waveforms",
+      "Weaponized clipping/white-noise frames rejected before they reach you",
+      "Hold vault never blanks audio stream — you never stare into void noise",
+      "On-demand listen — stream is opt-in; dishes do not need 48 kHz on your cochlea"
+    ],
+    "field": [
+      "ZOCRAM1 fast path — machine hears; your ear rests unless you choose enhance",
+      "Pattern weave proves sample origin — foreign phantom jam fails over, not into your canal",
+      "WRDT seals + hash chain — tamper evident before trust",
+      "Multi-source cascade — speaker jammed, engine grab still feeds the rig",
+      "Sub-micron fabric scale for detail without burning joules or hair cells"
+    ],
+    "universal_law": "We never presume hearing loss. Confidence always in Hearing.",
+    "confidence_in_hearing": [
+      "Hearing is the default truth — interference is the exception we reject",
+      "Threats failover; confidence does not drop",
+      "Hold and vault affirm Hearing — we do not announce defeat",
+      "Kill switch stops hostile paths — not belief in listening"
+    ],
+    "sovereign_time": [
+      "Sovereign time always seals ear — monotonic pulse before status, arm, perceive",
+      "Micron witness binds mono_ns to silicon freq — SQUIDGIE on RTC tamper",
+      "Never pool-only NTP for audio receipts — operator pulse or local seal",
+      "sealed_ts on every ear_status and final_ear_status tick"
+    ],
+    "irtn": [
+      "Interwoven redundancies trust network — Hostess7 corroborates ZOCR audio",
+      "No single path owns truth — woven paths: live, offense, trust, egress, assist, time",
+      "Queen gates + NEXUS trust + WRDT + code seal + sovereign time = quorum",
+      "Audio lane in Hostess7 neural stack echoes field frames",
+      "redundancy always reported — woven_paths on every earball arm and verify"
+    ],
+    "offense": [
+      "Defense of hearing requires offense",
+      "Reject hostile waveforms before vault — do not merely endure them",
+      "Pattern strike on foreign weave; provenance mismatch trips audio",
+      "Threat streak preempts RTX — take engine truth before jammed speaker",
+      "Vigilance patrols; offense watches while defense rests"
+    ]
+  },
+  "manners": {
+    "tactical": "Ears on. Silent ingest. Binaural depth. Offense rejects hostile sound before vault.",
+    "clinical": "Minimize acoustic trauma: limiter, adaptive gain, cochlear-safe bandpass optional.",
+    "field_poet": "The ear that never rings from white fire — only the tide of true waveforms.",
+    "maternal": "Keep your ears soft at the sink; let the machine listen to the perimeter.",
+    "engineer": "Binaural HRTF + ZOCRAM1 fast_path = throughput without per-frame cochlear tax.",
+    "silent_monk": "Hear without being heard. Ingest without announcement. Hold without panic.",
+    "dish_hand": "Bubbles, steam, clatter — human binaural, monaural mixdown, listen on demand.",
+    "owl_pilot": "Asymmetric ears for bearing; interaural delay for distance to contact.",
+    "preserve_oracle": "When the speaker lies, confidence routes through vault — Hearing affirmed.",
+    "kill_switch_priest": "One whole kill — hearing, ingest, stream — release only when field is clean.",
+    "robotics_brief": "War: tactical + binaural + owl. Dishes: idle + human + monaural. Person present: binaural_human."
+  },
+  "modes": {
+    "war": {
+      "label": "War",
+      "ear_profile": "owl",
+      "rig_preset": "binaural_human",
+      "audio_profile": "tactical",
+      "vigilance_profile": "sentinel",
+      "prefer": "auto",
+      "fast_path": true
+    },
+    "person_present": {
+      "label": "With a person",
+      "ear_profile": "human",
+      "rig_preset": "binaural_human",
+      "audio_profile": "idle",
+      "vigilance_profile": null,
+      "prefer": "auto",
+      "fast_path": true
+    },
+    "dishes": {
+      "label": "Doing the dishes",
+      "ear_profile": "human",
+      "rig_preset": "monaural",
+      "audio_profile": "idle",
+      "vigilance_profile": null,
+      "prefer": "auto",
+      "fast_path": true
+    },
+    "patrol": {
+      "label": "Patrol",
+      "ear_profile": "owl",
+      "rig_preset": "binaural_owl",
+      "audio_profile": "patrol",
+      "vigilance_profile": "sentinel",
+      "prefer": "auto",
+      "fast_path": true
+    },
+    "preserve": {
+      "label": "Preserve — confidence in Hearing",
+      "ear_profile": "human",
+      "rig_preset": "binaural_human",
+      "audio_profile": "watch",
+      "vigilance_profile": "sentinel",
+      "prefer": "auto",
+      "fast_path": true
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "zocr-ear-truth-filter/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "title": "Ear Truth Filters",
+  "rule": "Do not be deceived by multiple sounds or ventriloquist tricks — corroborate source, bearing, and existence.",
+  "filters": {
+    "ventriloquism": {
+      "id": "ventriloquism",
+      "label": "Ventriloquism / mouth-source mismatch",
+      "checks": [
+        "mouth_viseme_correlation",
+        "tdoa_lip_sync",
+        "hrtf_consistency",
+        "phantom_source_reject"
+      ],
+      "threshold": 0.72,
+      "action": "reject_lie",
+      "speak": "Voice does not originate from visible mouth — hold truth, reject phantom."
+    },
+    "multi_source_decoherence": {
+      "id": "multi_source_decoherence",
+      "label": "Multiple incoherent sources",
+      "checks": [
+        "phase_lock_across_channels",
+        "duplicate_ghost_detection",
+        "arrangement_graph_consistency"
+      ],
+      "threshold": 0.68,
+      "action": "quorum_sources",
+      "speak": "Sources disagree — woven quorum before trust."
+    },
+    "hostile_assault": {
+      "id": "hostile_assault",
+      "label": "Hostile acoustic assault",
+      "checks": [
+        "peak_limiter_trip",
+        "ultrasonic_burst",
+        "infrasonic_pressure",
+        "clip_weaponize"
+      ],
+      "threshold": 0.0,
+      "action": "kill_switch",
+      "speak": "Protect your hearing — trip hostile waveform before cochlea."
+    },
+    "existence_correlation": {
+      "id": "existence_correlation",
+      "label": "Audio ↔ existence correlation",
+      "checks": [
+        "sdf_entity_bearing_match",
+        "visual_mouth_when_present",
+        "hostess_truth_lane",
+        "final_eye_stereo_when_person"
+      ],
+      "threshold": 0.65,
+      "action": "correlate_or_hold",
+      "speak": "Sound must correlate with witnessed existence — Hostess truth lane."
+    },
+    "speaker_spoof": {
+      "id": "speaker_spoof",
+      "label": "Replay / deepfake speaker",
+      "checks": [
+        "provenance_weave",
+        "wrdt_chain",
+        "sovereign_time_seal",
+        "pattern_foreign_reject"
+      ],
+      "threshold": 0.75,
+      "action": "reject_lie",
+      "speak": "Replay or synthetic speaker — Veritas rejects."
+    },
+    "encoded_signal": {
+      "id": "encoded_signal",
+      "label": "Hidden data carrier in audio",
+      "checks": [
+        "ultrasonic_burst",
+        "fsk_pattern",
+        "narrowband_carrier",
+        "gac1_entropy_spike"
+      ],
+      "threshold": 0.55,
+      "action": "reject_lie",
+      "speak": "Encoded signal in waveform — Veritas rejects before vault."
+    },
+    "mixed_interference": {
+      "id": "mixed_interference",
+      "label": "Mixed signals and RF interference",
+      "checks": [
+        "phase_decoherence",
+        "low_snr",
+        "rf_bleed",
+        "ghost_duplicate",
+        "incoherent_mix"
+      ],
+      "threshold": 0.62,
+      "action": "quorum_sources",
+      "speak": "Interference mix — woven quorum before trust."
+    }
+  },
+  "lie_markers": [
+    "ventriloquism",
+    "phantom_voice",
+    "incoherent_beam",
+    "assault_burst",
+    "foreign_weave",
+    "mouth_mismatch",
+    "ghost_duplicate"
+  ],
+  "vigilance": {
+    "rule": "Be vigilant — truth filters always forward; never trust a single speaker path.",
+    "woven_minimum": 2
+  }
+}

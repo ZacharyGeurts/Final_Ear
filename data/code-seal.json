@@ -1,0 +1,22 @@
+{
+  "schema": "zocr-ear-code-seal/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "ts": "2026-06-25T19:18:17.299594+00:00",
+  "files": {
+    "zocr_audio_offense.py": "24ea465741df275374a4617feb88cf4b63be99cb1a3a4fe622fab73d8c3fdb87",
+    "zocr_ear.py": "eebb68e71172270b0fc5d7251ed727a05853ee5c5dea24206b7dabd38f0c9db2",
+    "zocr_ear_equipment.py": "5978b3e07d76d10908eda7622532ca63e51d6e916fa295b546bc390173893838",
+    "zocr_ear_localize.py": "cd935b162b4296851262f5dd6e87d1fe8c6a033b208f23136c4bac2c457e15cf",
+    "zocr_ear_stoard.py": "d054c86cf3eb31d35ab052e6c702355bf865fde8ba36de7f7d5a4664cb51e17a",
+    "zocr_ear_truth.py": "6d6dcfa31adb477d15f5eee923464cf9093c392d12fa8dc1b89c3f95955b0931",
+    "zocr_entity_ear.py": "454464202935f2719a79ae6dedcf32d6a258789830e1f4c63b581ba31766c88c",
+    "zocr_field_manual.py": "227a77894cd9ca574a42d540d8b9cb54fd04b0d21433d620554166ffde1c9f3c",
+    "zocr_kill.py": "492cc4f9ca2f2117f111771094aa7dec9b0b91330144b0f2cbd383f547299ddd",
+    "zocr_neural_assist.py": "ea7d3021688143f6c0307cd7b61f3fe03270b614eca8ae132c4b98d8a996b0fb",
+    "zocr_product.py": "84e608d8fe0a61b3416b809e7a756e21ce10932a3ad40edb6f3cdf89b1954758",
+    "zocr_security.py": "aae1e9187040af9f74be5ab0e1f3e359ed1554200950928a978dcdd6c5e80b89",
+    "zocr_virtual_ear.py": "40736cc0e936452487d6f9a88db7fe026c6669121ef2fae6e16c356a533be525"
+  },
+  "file_count": 13,
+  "root_seal": "93a6c62f2771a75b74fbb37acca7ad11192bc006a9cbafa71906fa8f69d12639"
+}

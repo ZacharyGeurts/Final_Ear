@@ -1,0 +1,137 @@
+{
+  "schema": "zocr-auditory-spectrum/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "engine": "cochlea_v1",
+  "grok16_default_profile": "field_opt",
+  "doctrine": "Auditory spectrum — equipment profiles from human binaural to obscure field mics; Grok16 field_opt tuned",
+  "default_profile": "human_binaural",
+  "profiles": {
+    "human_binaural": {
+      "label": "Human binaural",
+      "class": "mammal",
+      "channels": 2,
+      "sample_rate_hz": 48000,
+      "range_hz": [20, 20000],
+      "equipment": ["pinna", "cochlea"],
+      "teach": "Baseline human hearing — ITD/ILD for bearing, level for distance hint."
+    },
+    "headset_stereo": {
+      "label": "Headset stereo",
+      "class": "consumer",
+      "channels": 2,
+      "sample_rate_hz": 48000,
+      "equipment": ["closed_back", "usb_audio"],
+      "teach": "Near-field monitoring — ventriloquism checks require mouth-source correlation."
+    },
+    "shotgun": {
+      "label": "Shotgun mic",
+      "class": "directional",
+      "channels": 1,
+      "sample_rate_hz": 48000,
+      "beam_deg": 15,
+      "equipment": ["interference_tube"],
+      "teach": "Narrow lobe — point and distance from level + direct/reverb ratio."
+    },
+    "lavalier": {
+      "label": "Lavalier / lav",
+      "class": "body",
+      "channels": 1,
+      "sample_rate_hz": 48000,
+      "equipment": ["omni_capsule", "windscreen"],
+      "teach": "Close talker — truth filter binds voice to visible mouth when camera present."
+    },
+    "contact_mic": {
+      "label": "Contact / piezo",
+      "class": "obscure",
+      "channels": 1,
+      "sample_rate_hz": 96000,
+      "range_hz": [10, 80000],
+      "equipment": ["piezo", "structure_borne"],
+      "teach": "Structure-borne — existence correlation via vibration path, not air phantom."
+    },
+    "hydrophone": {
+      "label": "Hydrophone",
+      "class": "obscure",
+      "channels": 1,
+      "sample_rate_hz": 192000,
+      "range_hz": [1, 200000],
+      "equipment": ["underwater", "piezo_sphere"],
+      "teach": "Fluid medium — bearing via array or towed geometry."
+    },
+    "infrasound": {
+      "label": "Infrasound sensor",
+      "class": "obscure",
+      "channels": 1,
+      "sample_rate_hz": 200,
+      "range_hz": [0.1, 20],
+      "equipment": ["pressure_port", "sealed_chamber"],
+      "teach": "Sub-bass assault detection — trip before cochlear fatigue."
+    },
+    "ultrasonic": {
+      "label": "Ultrasonic mic",
+      "class": "obscure",
+      "channels": 1,
+      "sample_rate_hz": 384000,
+      "range_hz": [20000, 120000],
+      "equipment": ["mems_ultrasonic"],
+      "teach": "Hostile ultrasonic jam — offense rejects before biological exposure."
+    },
+    "mems_array": {
+      "label": "MEMS mic array",
+      "class": "array",
+      "channels": 4,
+      "sample_rate_hz": 48000,
+      "equipment": ["beamformer", "doa"],
+      "teach": "DOA + arrangement — truth filter rejects incoherent phantom beams."
+    },
+    "boundary": {
+      "label": "Boundary / PZM",
+      "class": "room",
+      "channels": 1,
+      "sample_rate_hz": 48000,
+      "equipment": ["phase_coherent_plate"],
+      "teach": "Room summing — arrangement map from early reflections."
+    },
+    "parabolic": {
+      "label": "Parabolic dish",
+      "class": "directional",
+      "channels": 1,
+      "sample_rate_hz": 48000,
+      "beam_deg": 8,
+      "equipment": ["dish_reflector"],
+      "teach": "Long-range point — distance from SNR curve + atmospheric model."
+    },
+    "coil_induction": {
+      "label": "Induction coil",
+      "class": "obscure",
+      "channels": 1,
+      "sample_rate_hz": 24000,
+      "equipment": ["telecoil", "loop"],
+      "teach": "Magnetic field audio — bypass air ventriloquism when loop authenticated."
+    },
+    "bone_conduction": {
+      "label": "Bone conduction",
+      "class": "obscure",
+      "channels": 2,
+      "sample_rate_hz": 48000,
+      "equipment": ["mastoid_driver"],
+      "teach": "Skull path — correlate with facial SDF when person present."
+    },
+    "vintage_carbon": {
+      "label": "Vintage carbon mic",
+      "class": "obscure",
+      "channels": 1,
+      "sample_rate_hz": 12000,
+      "equipment": ["carbon_granule"],
+      "teach": "Obscure heritage path — truth filter normalizes bandwidth before compare."
+    },
+    "ribbon_velocity": {
+      "label": "Ribbon velocity",
+      "class": "studio",
+      "channels": 1,
+      "sample_rate_hz": 96000,
+      "equipment": ["figure8_ribbon"],
+      "teach": "Figure-8 pattern — arrangement from nulls and side rejection."
+    }
+  }
+}

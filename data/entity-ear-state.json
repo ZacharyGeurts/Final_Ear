@@ -1,0 +1,9 @@
+{
+  "schema": "zocr-entity-ear-state/v1",
+  "living_live": true,
+  "truth_forward": true,
+  "weapons_armed": true,
+  "forward_count": 13,
+  "lies_rejected": 1,
+  "updated": "2026-06-29T08:07:11.166763+00:00"
+}

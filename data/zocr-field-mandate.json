@@ -1,0 +1,15 @@
+{
+  "schema": "zocr-field-mandate/v1",
+  "mandate_id": "ZOCR_FIELD_AUDIO_MANDATE_v1",
+  "rule": "Final Ear — sealed code, kill switches, truth floor 58 for neural adapt",
+  "security": {
+    "code_seal_required": true,
+    "kill_switch_required": true,
+    "truth_adapt_floor": 58,
+    "truth_floor_spec": "Hostess7/data/hostess7-truth-floor.json"
+  },
+  "ingress": {
+    "localhost_only": true,
+    "external_egress": "BLOCK"
+  }
+}

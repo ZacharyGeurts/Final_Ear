@@ -1,0 +1,53 @@
+{
+  "schema": "zocr-sound-tracker-doctrine/v1",
+  "title": "Sound pursuit — GPS heading, motion, permanent IDs",
+  "rule": "Every sound carries current GPS heading and source. Predict motion; pursue or avoid without overriding truth priorities.",
+  "posture": {
+    "zero_cost": true,
+    "never_fail": true,
+    "local_first": true,
+    "paid_apis": false
+  },
+  "gps": {
+    "operator_paths": [
+      ".nexus-state/operator-location.json",
+      "/var/lib/nexus-shield/operator-location.json"
+    ],
+    "fallback_lat": 42.3314,
+    "fallback_lon": -83.0458,
+    "fallback_source": "field_centroid"
+  },
+  "ingress_lanes": [
+    {"id": "desktop", "label": "Desktop audio (PipeWire/Pulse)", "engine": "zocr_desktop_audio.py"},
+    {"id": "antenna", "label": "Field antenna OTA", "panel": "field-antenna-panel.json"},
+    {"id": "virtual_ear", "label": "Virtual ear mechanisms", "engine": "zocr_virtual_ear.py"},
+    {"id": "mic", "label": "Hostess microphone", "bridge": "field_final_ear_bridge.py"},
+    {"id": "rf_demod", "label": "RF demod audio lane", "panel": "field-rf-panel.json"}
+  ],
+  "motion": {
+    "history_ticks": 12,
+    "moving_speed_mps": 0.35,
+    "bearing_jitter_deg": 4.0,
+    "predict_horizon_s": 3.0
+  },
+  "pursuit_policies": {
+    "hold": {"label": "Hold lock", "spawn_virtual_ear": false, "bearing_delta_deg": 0},
+    "chase": {"label": "Chase source", "spawn_virtual_ear": true, "lead_factor": 1.2},
+    "avoid": {"label": "Avoid source", "spawn_virtual_ear": false, "bearing_delta_deg": 180},
+    "orbit": {"label": "Orbit at radius", "spawn_virtual_ear": true, "orbit_deg": 90},
+    "shadow": {"label": "Shadow with offset", "spawn_virtual_ear": true, "offset_bearing_deg": 30}
+  },
+  "default_policy": "hold",
+  "learn": {
+    "truth_floor": 58,
+    "overlay_only": true,
+    "max_encourage_delta": 0.03,
+    "audio_train_harvest": true,
+    "never_override_priorities": true
+  },
+  "neural_bind": {
+    "permanent_id_prefix": "snd_",
+    "registry_path": "data/sound-registry.json",
+    "ledger_path": ".nexus-state/sound-registry-ledger.jsonl"
+  }
+}
